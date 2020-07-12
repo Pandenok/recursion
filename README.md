@@ -24,4 +24,4 @@ As far as I don't know and I haven't found any other solution than to use an old
 
 <img src="img/puts-debugging.png" alt="Debugging with puts" width="400" height="400">
 
-The question remains open: is it possibile to follow the code like this with any debugger?
+The question remains open: is it *possibile* to follow the code like this with any debugger?
