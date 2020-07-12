@@ -22,38 +22,6 @@ And is here where I'm frustrated... Within your `Pry` console you have all the f
 
 As far as I don't know and I haven't found any other solution than to use an old good `puts` to help see what's going on in the code. It's not beautiful, it's tedious, it's simple and effective... 
 
-
-
 <img src="img/puts-debugging.png" alt="Debugging with puts" width="400" height="400">
-<!-- ![Debugging with puts](img/puts-debugging.png) -->
 
-
-but the major part of them is about `pry` 
-I've read and watched everything available on [wikipry](https://github.com/pry/pry/wiki), I've googled and found (obivously) some very useful articles and guides... 
-
-order to understand recursion better is very useful pen and paper to visualize each move of code, so I was thinking could `pry` be that digital pen and paper? 
-
-
-
-and as far as debugging is something that I'm probably going to do for the rest of my coding life
-
-The best way to get proficient in recursion is to practice it as much as possible
-## `pry`
-
-### Using pry in Loops
-Using the conditional, you can specify at what point you want to intercept your code and initiate a pry session.
-`binding.pry if value.nil?`
-
-[source](https://www.honeybadger.io/blog/debugging-ruby-with-pry/)
-### Setting breakpoints with Pry
-Let’s say you’re having a really hard time getting your code to run the way you expected. (We’ve all been there, right?)
-
-What you can do is set a breakpoint in the part of the code that isn’t working as expected and then you’ll end up in a version of Pry, but at a point that is frozen.
-Set the binding.pry right above the line of code that is causing the trouble and then run the code. 
-
-### What if nothing happens?
-
-Sometimes you’ll place your breakpoints, run your code, and instead of landing inside Pry, nothing seems to happen. While this may be frustrating, it does give a clue. It means that your code never triggered the Pry because it never got that far. So what do you do? You set a new breakpoint earlier in the code and see if that works. While this may seem tedious, it is actually giving you important information!
-
-### When to ask for help
-Set your breakpoints with Pry and dig deeper into the code. If after 20-30 minutes you're no closer to finding a solution, it might be time to ask for assistance.
+The question remains open: is it possibile to follow the code like this with any debugger?
