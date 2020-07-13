@@ -18,7 +18,6 @@ end
 def fibs_rec(length)
   return [0] if length.zero?
   return [0, 1] if length == 1
-  
   sequence = fibs_rec(length - 1)
   sequence << sequence[-1] + sequence[-2]
 end

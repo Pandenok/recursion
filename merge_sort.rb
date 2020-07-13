@@ -24,7 +24,6 @@ end
 
 def merge(left, right)
   result = []
-
   while left.any? && right.any?
     if left.first <= right.first
       result << left.first
